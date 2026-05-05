@@ -93,8 +93,9 @@ GET /users/:id
 
 PUT /users/:id
 
-```{
-  "email": "novo@email.com",
+```json
+{
+    "email": "novo@email.com",
   "firstName": "Nome Atualizado",
   "lastName": "Sobrenome Atualizado"
 }
